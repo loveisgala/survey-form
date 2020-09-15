@@ -9,7 +9,85 @@
 </head>
 
 <body>
+    <main id="main">
+        <div class="container">
+            <h1 id="title">Only for chesse lovers</h1>
+            <p id="description">This survey will help us to count cheese lovers around the world. </p>
 
+            <form id="survey-form" action="">
+
+                <fieldset class="personal">
+                    <label id="name-label" for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Your name" required>
+
+                    <label id="email-label" for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Your E-mail" required>
+
+                    <label id="number-label" for="cantidad">Age:</label>
+                    <input type="number" id="number" placeholder="Your Age" min="0" max="100">
+                </fieldset>
+
+                <fieldset>
+                    <label for="options">What do you do?</label>
+                    <select id="dropdown">
+                <option value="" disabled selected>--Select--</option>
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time Cheese Eater">Full Time Cheese Eater</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+                </fieldset>
+
+                <fieldset>
+                    <label for="select">Do you consider yourself a cheese adept?</label>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="cheese" value="yes" id="yes">
+
+                    <label for="no">No</label>
+                    <input type="radio" name="cheese" value="no" id="no">
+                </fieldset>
+
+                <fieldset>
+                    <label class="description" for="element_1">Choose Your Favourites </label>
+
+                    <input id="element_1_1" name="element_1_1" class="element checkbox" type="checkbox" value="1">
+                    <label class="choice" for="element_1_1">Swiss</label>
+
+                    <input id="element_1_2" name="element_1_2" class="element checkbox" type="checkbox" value="1">
+                    <label class="choice" for="element_1_2">Gouda</label>
+
+                    <input id="element_1_3" name="element_1_3" class="element checkbox" type="checkbox" value="1">
+                    <label class="choice" for="element_1_3">Gorgonzola</label>
+
+                    <input id="element_1_4" name="element_1_4" class="element checkbox" type="checkbox" value="1">
+                    <label class="choice" for="element_1_4">Cheddar</label>
+
+                    <input id="element_1_5" name="element_1_5" class="element checkbox" type="checkbox" value="1">
+                    <label class="choice" for="element_1_5">Roquefort</label>
+
+                    <input id="element_1_6" name="element_1_6" class="element checkbox" type="checkbox" value="1">
+                    <label class="choice" for="element_1_6">Blue</label>
+
+                    <input id="element_1_7" name="element_1_7" class="element checkbox" type="checkbox" value="1">
+                    <label class="choice" for="element_1_7">Camembert</label>
+
+                    <input id="element_1_8" name="element_1_8" class="element checkbox" type="checkbox" value="1">
+                    <label class="choice" for="element_1_8">Brie</label>
+
+                    <input id="element_1_9" name="element_1_9" class="element checkbox" type="checkbox" value="1">
+                    <label class="choice" for="element_1_9">Romano</label>
+
+                    <input id="element_1_10" name="element_1_10" class="element checkbox" type="checkbox" value="1">
+                    <label class="choice" for="element_1_10">Parmesan</label>
+                </fieldset>
+
+                <h2>Additional Comments:</h2>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+                <p><input id="submit" type="submit" value="Submit"></p>
+            </form>
+        </div>
+    </main>
 </body>
 
 </html>
