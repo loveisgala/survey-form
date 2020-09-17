@@ -1,0 +1,114 @@
+body {
+    background-image: linear-gradient(to top, rgba(246, 245, 252, 0), rgba(14, 6, 12, 0.73)), url(https://images-prod.healthline.com/hlcmsresource/images/AN_images/healthiest-cheese-1296x728-swiss.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Ranchers', cursive;
+    font-weight: 400;
+}
+
+.flex {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/** MAIN **/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+
+/** HEADER **/
+
+.header {
+    margin: 2rem;
+    align-self: center;
+}
+
+.header-title {
+    font-size: 2.3rem;
+}
+
+.header-span {
+    display: block;
+    text-align: left;
+    color: #E3AD24;
+    text-decoration: overline;
+}
+
+
+/** FORM **/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+
+.f-section {
+    margin: 1rem;
+}
+
+
+/* LABEL */
+
+.f-section-label {
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    display: block;
+    font-size: 1rem;
+    color: whitesmoke;
+    /* border: 2px solid yellow; */
+}
+
+.f-section-input {
+    color: whitesmoke;
+}
+
+
+/** INPUT **/
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="button"],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--main-color);
+    border-bottom: 2px solid rgba(223, 228, 179, 0.788);
+    color: whitesmoke;
+}
+
+input[type="button"] {
+    background-color: #f44b27;
+    padding: 0.7rem;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    width: 100%;
+    color: white;
+}
+
+option,
+input[type="radio"],
+input[type="checkbox"] {
+    margin-bottom: 0.5rem;
+}
